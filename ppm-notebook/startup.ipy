@@ -2,5 +2,6 @@ import ppm
 from nb_tools import *
 
 ppm.set_ppm_path('/home/ppm/CADC/swj/data/PPM/RUNS_DATA')
+set_ppm_path('/home/ppm/CADC/swj/data/PPM/RUNS_DATA') # for nb_tools
 
 %pylab inline
