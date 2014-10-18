@@ -41,5 +41,6 @@ ENV HOME /home/ppm
 RUN ipython profile create nbserver
 ADD startup.ipy /home/ppm/.ipython/profile_nbserver/startup/startup.ipy
 ADD nb_tools.py /home/ppm/.ipython/profile_nbserver/startup/nb_tools.py
+ADD ppm.py /home/ppm/ppm.py
 WORKDIR /home/ppm
 CMD /home/ppm/run-ipython-notebook.bash
